@@ -1,0 +1,144 @@
+
+*{
+    font-family: 'Padauk', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+body {
+    background:linear-gradient(#DCDCDC,#000000);
+
+}
+
+.logo {
+padding-top: 40px;
+padding-left:40px;
+gap: 40px;
+position: absolute;
+}
+
+
+main {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 40px;
+margin-top: 20px;
+    
+}
+ 
+
+.input-texto {
+    background-color:antiquewhite ;
+    margin-top: 138px;
+    width: 680px;
+    height: 300px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-style: italic;
+}
+.input-texto:hover{
+    border-color: #C78C19;
+}
+
+.input-texto::placeholder {
+    padding:  5%;
+}
+
+.mensagem {
+    background-color:antiquewhite ;
+    position: static;
+    margin-top: 20px;
+    margin-left:0;
+    margin-right: 100px;
+    width:300px ;
+    height: 500px;
+    background-image: url("./imagens/imgmensagem.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.mensagem::placeholder {
+    padding:20%
+}
+
+    
+
+
+.copiar {
+    background-color: #FFD700;
+    color: black;
+    margin-left: 95px;
+    font-size: 22px;
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+    
+}
+
+.copiar:hover {
+    background:#F0E68C;
+}
+ 
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    justify-content: space-between;
+    border-radius: 10px;
+     
+}
+
+.encriptar {
+    background-color:#FFD700;
+    color:black;
+    font-size: 22px;
+    border-radius: 10px;
+    width: 40%;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+    
+}
+
+.encriptar:hover {
+    background:#F0E68C;
+}
+
+.desencriptar {
+    background-color: #FFD700;
+    color: black;
+    margin-left: 30px;
+    font-size: 22px;
+    border-radius: 10px;
+    width: 40%;
+    height: 45px;
+    font-weight: bold;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.desencriptar:hover {
+    background:#F0E68C;
+}
+
+.informacao {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #F0E68C;
+}
+
