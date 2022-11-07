@@ -40,6 +40,8 @@ margin-top: 20px;
     font-style: italic;
 }
 .input-texto:hover{
+    border-style: solid;
+    border-width: 3px;
     border-color: #C78C19;
 }
 
@@ -50,18 +52,17 @@ margin-top: 20px;
 .mensagem {
     background-color:antiquewhite ;
     position: static;
-    margin-top: 20px;
-    margin-left:0;
     margin-right: 100px;
     width:300px ;
     height: 500px;
     background-image: url("./imagens/imgmensagem.png");
     background-repeat: no-repeat;
-    background-position: 18px;
-    background-size: 300px;
+    background-position: 50%;
+    background-size: 150px;  
     border-radius: 25px;
     font-size: 20px;
     font-style: italic;
+    
 
 }
 
@@ -70,7 +71,11 @@ margin-top: 20px;
 }
 
     
-
+.mensagem:hover{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #C78C19;  
+}
 
 .copiar {
     background-color: #FFD700;
@@ -88,6 +93,7 @@ margin-top: 20px;
 }
 
 .copiar:hover {
+    
     background:#F0E68C;
 }
  
@@ -133,6 +139,7 @@ margin-top: 20px;
 }
 
 .desencriptar:hover {
+    
     background:#F0E68C;
 }
 
