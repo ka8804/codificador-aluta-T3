@@ -6,14 +6,24 @@
     line-height: 150%;
 }
 
-body {
-    background:linear-gradient(#DCDCDC,#000000);
+.gradiente{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    background:linear-gradient(white,black);
+    background-size: cover;
 
 }
 
+    
+
+
+
 .logo {
+position: relative;
 padding-top: 40px;
-padding-left:40px;
+margin-left: 10%;
 gap: 40px;
 position: absolute;
 }
@@ -42,7 +52,7 @@ margin-top: 20px;
 .input-texto:hover{
     border-style: solid;
     border-width: 3px;
-    border-color: #C78C19;
+    border-color:#7FFFD4;
 }
 
 .input-texto::placeholder {
@@ -73,8 +83,8 @@ margin-top: 20px;
     
 .mensagem:hover{
     border-style: solid;
-    border-width: 5px;
-    border-color: #C78C19;  
+    border-width: 3px;
+    border-color:#7FFFD4;  
 }
 
 .copiar {
